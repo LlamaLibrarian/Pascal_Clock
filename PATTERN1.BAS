@@ -11,4 +11,3 @@ FOR X% = 1 TO 480
   NEXT
 NEXT
 SLEEP
-
