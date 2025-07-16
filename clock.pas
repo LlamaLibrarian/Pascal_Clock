@@ -147,6 +147,7 @@ begin
 
   for Hour := 0 to 11 do
     drawhand(Hour * 5, 21, 24, 'D');
+    
   gettime(Hour, Min, Sec, Msec);
 
   drawhand(Sec, -6, 24, #46);
