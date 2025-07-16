@@ -2,4 +2,4 @@
 
 A analog clock runs in turbo pascal.
 
-Filename= time.pas
+Filename= clock.pas
