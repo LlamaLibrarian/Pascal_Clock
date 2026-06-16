@@ -4,7 +4,6 @@
 uses crt, dos;
 
 procedure drawhand(Angle, Tail, Tip : shortint; Pixel : char);
-
 const
   Xside: Array [0..59] of single = (
 0,
@@ -138,6 +137,7 @@ begin
     write(Pixel);
   end;
 end;
+
 
 var
   Hour, Min, Sec, Msec: word;
