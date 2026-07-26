@@ -25,12 +25,12 @@ DO
 
  prevtime$ = TIME$
 
-redo:
+ redo:
  IF TIME$ = prevtime$ THEN GOTO redo
 
- drawhand VAL(RIGHT$(TIME$, 2)), -7, 37, 1
- drawhand VAL(RIGHT$(TIME$, 5)), 0, 36, 2
- drawhand 5 * (VAL(TIME$) MOD 12), 0, 18, 4
+ drawhand VAL(RIGHT$(TIME$, 2)), -8, 37, 1
+ drawhand VAL(RIGHT$(TIME$, 5)), 0, 36, 10
+ drawhand 5 * (VAL(TIME$) MOD 12), 0, 18, 12
 
  PCOPY 0, 1
 
@@ -82,4 +82,3 @@ FOR Tip = Tip TO Tail STEP -1
  LINE (u%, v%)-(u% + 1, v% + 1), Col, B
 NEXT
 END SUB
-
